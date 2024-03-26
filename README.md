@@ -1,8 +1,31 @@
-# React + Vite
+# Guess My Number: A Number Guessing Game using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Guess My Number Demo](https://i.ibb.co/QpxmGss/Screenshot-26-3-2024-22337-react-guess-the-number-web-app.jpg)
 
-Currently, two official plugins are available:
+## How to Play:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Guess the secret number within of 1 to 20. If your guess is smaller than the secret number, you'll receive a "Too low!" message. If your guess is larger, you'll receive a "Too high!" message. Keep guessing until you find the correct number!
+
+## Features:
+
+- 🔢 Guess the secret number
+- 📉 Get feedback if the guessed number is too low
+- 📈 Get feedback if the guessed number is too high
+- 📊 Keep track of score and highscore
+- 🔄 Restart the game
+- 🚀 View secret number in an alert window by pressing the space button
+
+## Tech Stack:
+
+- ⚛️ React
+
+### Install Dependencies
+
+```shell
+npm install
+```
+
+### Start the App:
+```shell
+npm start
+```
